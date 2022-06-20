@@ -103,8 +103,13 @@ age.increment()
 > The big difference would be on the **state object** itself and the way it is structured and accessed.<br>
 > So essentially in **Reduck** every state object contains its reducers and values.
 
-<img src="https://i.ibb.co/s3WSNRK/Screenshot-2022-06-20-at-23-13-37.png" alt="Alt text" style="float: left" title="Optional title">
+| <img src="https://i.ibb.co/4g77nkf/Screenshot-2022-06-20-at-23-13-37.png" alt="Alt text" style="float: left" title="Optional title"> | <img src="https://i.ibb.co/rs11TFr/Screenshot-2022-06-20-at-23-39-59.png" alt="Alt text" style="float: left" title="Optional title"> |
+|--|--|
 
+
+
+<!-- <img src="https://i.ibb.co/4g77nkf/Screenshot-2022-06-20-at-23-13-37.png" alt="Alt text" style="float: left" title="Optional title">
+<img src="https://i.ibb.co/rs11TFr/Screenshot-2022-06-20-at-23-39-59.png" alt="Alt text" style="float: left" title="Optional title"> -->
 
 
 ## TODO
