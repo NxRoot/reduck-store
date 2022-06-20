@@ -12,7 +12,7 @@ Simple react state reducer inspired on redux duck patterns.
 ```
 npm i reduck-store
 ```
-**We will using this structure in the next examples** <br>
+**We will be using this structure in the next examples** <br>
 
 ```
 📜 app.tsx
