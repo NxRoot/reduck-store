@@ -40,7 +40,7 @@ export const ReducerAge = {
 ```
 
 **Create a Store and Typings** `src/store/index.tsx`
-> StoreValue receives the type of the reducers and the type of the value itself
+> **StoreValue** receives the type of the reducers and the type of the value itself
 ```
 import { createStore, StoreValue } from "reduck-store"
 import { ReducerAge } from "./reducer/age"
