@@ -1,6 +1,6 @@
 {
   "name": "reduck-store",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Simple react state reducer inspired on redux.",
   "main": "lib/index.js",
   "scripts": {
