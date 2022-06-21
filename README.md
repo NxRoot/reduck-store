@@ -1,9 +1,9 @@
 # Reduck Store 🦆
-Simple react state reducer inspired on redux duck patterns.
+Simple react state reducer inspired on redux.
 
 ## Description
 
-* This project was developed mainly because I don't like the way redux structures their state objects.
+* This project was mainly developed for education purposes.
 * Reduck works just like redux, it creates a store, reducers, and dispatches events where needed.
 * It uses essentially the same synthax patterns as redux.
 
@@ -29,7 +29,7 @@ npm i reduck-store
 
 
 **Create a reducer** `src/store/reducer/age.tsx`
-```
+```js
 export const ReducerAge = {
   name: 'age',
   initialValue: 20,
@@ -43,7 +43,7 @@ export const ReducerAge = {
 
 **Create a Store and Typings** `src/store/index.tsx`
 > **StoreValue** receives the type of the reducers and the type of the value itself
-```
+```js
 import { createStore, StoreValue } from "reduck-store"
 import { ReducerAge } from "./reducer/age"
 
@@ -58,7 +58,7 @@ export const { store, useStore } = createStore<StoreState>([ ReducerAge ])
 ## Usage 
 
 **Wrap provider around your app**
-```
+```js
 import StoreProvider from "reduck-store"
 import { store } from "./store"
 
@@ -72,7 +72,7 @@ function App() {
 ```
 
 **Access the store**
-```
+```js
 import { useStore } from "./store"
 
 function Home() {
@@ -94,11 +94,11 @@ function Home() {
 ## Differences
 
 In **Redux** you would have something like this:
-```
+```js
 dispatch(increment())
 ```
 In **Reduck** we do it like this:
-```
+```js
 age.increment()
 ```
 
