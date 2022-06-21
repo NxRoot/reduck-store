@@ -7,6 +7,8 @@ Simple react state reducer inspired on redux duck patterns.
 * Reduck works just like redux, it creates a store, reducers, and dispatches events where needed.
 * It uses essentially the same synthax patterns as redux.
 
+## Demo
+[![Edit React Typescript (forked)](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/react-typescript-forked-dizeco?fontsize=14&hidenavigation=1&theme=dark&view=editor)
 
 ## Installation 
 ```
