@@ -38,12 +38,5 @@
   "types": "./lib/index.d.ts",
   "directories": {
     "lib": "lib"
-  },
-  "dependencies": {
-    "csstype": "^3.1.0",
-    "react": "^17.0.2",
-    "loose-envify": "^1.4.0",
-    "js-tokens": "^4.0.0",
-    "object-assign": "^4.1.1"
   }
 }
